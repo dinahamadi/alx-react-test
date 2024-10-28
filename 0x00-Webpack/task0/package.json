@@ -6,6 +6,7 @@
   "dependencies": {
     "jQuery": "^1.7.4",
     "jqeury": "^0.0.1-security",
+    "jquery": "^3.7.1",
     "package.json": "^2.0.1"
   },
   "devDependencies": {
@@ -13,7 +14,8 @@
     "webpack-cli": "^5.1.4"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development"
   },
   "keywords": [],
   "author": "",
